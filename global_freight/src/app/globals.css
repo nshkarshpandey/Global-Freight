@@ -63,10 +63,7 @@ body {
   font-weight: 400 !important;
 }
 
-.fri-txt-1{
-  /* line-height: normal;
-  top: 10%; */
-}
+
 
 /* Extra small devices (phones, 575px and down) */
 @media only screen and (max-width: 575px) {
@@ -105,6 +102,11 @@ body {
         width: 50%;
         left: 55%;
       }
+
+            .fri-txt-2 {
+              position: relative;
+              top: -154px;
+            }
 }
 
 /* Small devices (portrait tablets and large phones, 576px and up) */ 
@@ -146,11 +148,21 @@ body {
               height: 12rem;
               /* Adjust height for small screens */
             }
+    .serv-line {
+      width: 65%;
+      left: 36%;
+    }
 
-                             .serv-line {
-                              width: 65%;
-                                left: 36%;
-                             }
+        .fri-txt-1 {
+          
+        }
+
+      .fri-txt-2 {
+        position: relative;
+          top: -100px;
+      }
+                             
+                
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
