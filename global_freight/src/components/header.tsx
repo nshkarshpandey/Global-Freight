@@ -12,7 +12,7 @@ const Header: React.FC = () => {
           alt="Company Logo"
           width={120}
           height={40}
-          className="w-24 h-auto md:w-32"
+          className="w-52 h-auto md:w-52"
         />
       </div>
 
