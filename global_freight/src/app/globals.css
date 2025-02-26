@@ -64,6 +64,24 @@ body {
   font-weight: 400 !important;
 }
 
+ .scrollbar-hide::-webkit-scrollbar {
+   display: none;
+   /* Hide scrollbar for Chrome, Safari, and Opera */
+ }
+
+ .scrollbar-hide {
+   -ms-overflow-style: none;
+   /* Hide scrollbar for IE and Edge */
+   scrollbar-width: none;
+   /* Hide scrollbar for Firefox */
+ }
+
+
+ .transition-all {
+   transition-property: all;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   transition-duration: 1000ms;
+ }
 
 
 
@@ -113,7 +131,27 @@ body {
                         .req-img {
                           top: -40px !important;
                         }
-                    
+                .for-txt-1 {
+                  font-size: 3rem !important;
+                  text-align: center !important;
+                }
+        
+                .for-img-1 {
+                  left: 0;
+                  width: 8rem;
+                }
+        
+                .for-img-cont {
+                  height: 9rem;
+                }
+        
+                .for-main-cont {
+                  top: -34px;
+                }
+        
+                .for-txt-cont {
+                  left: 0;
+                }
 }
 
 /* Small devices (portrait tablets and large phones, 576px and up) */ 
@@ -169,6 +207,28 @@ body {
      .req-img {
        top: 16px !important;
      }
+
+         .for-txt-1 {
+           font-size: 3rem !important;
+           text-align: center !important;
+         }
+    
+         .for-img-1 {
+           left: 0;
+           width: 8rem;
+         }
+    
+         .for-img-cont {
+           height: 9rem;
+         }
+
+         .for-main-cont{
+          top: 64px;
+         }
+
+         .for-txt-cont{
+          left: 0;
+         }
                 
 }
 
@@ -196,6 +256,19 @@ body {
             left: 28%;
         }
 
+
+.for-txt-1 {
+  font-size: 2.15rem !important;
+}
+
+.for-img-1 {
+  left: -14%;
+  width: 8rem;
+}
+
+.for-img-cont{
+  height: 9rem;
+}
           
 }
 
@@ -221,6 +294,14 @@ body {
       left: 22%;
     }
 
+    .for-txt-1{
+      font-size: 2.75rem !important;
+    }
+
+        .for-img-1 {
+       left: -10%;
+        }
+
        
 }
 
@@ -240,6 +321,10 @@ body {
            width: 77%;
            left: 19%;
          }
+
+                 .for-txt-1 {
+                   font-size: 60px !important;
+                 }
 
 }
 

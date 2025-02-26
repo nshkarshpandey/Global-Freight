@@ -7,6 +7,8 @@ import Service from "@/components/service";
 import useScreenSize from '@/hooks/useScreenSize';
 import Freight from "@/components/freight";
 import Req from "@/components/req";
+
+import Freight_Forwarding from "@/components/freight_forwarding";
 // import Image from "next/image";
 
 export default function Home() {
@@ -20,6 +22,7 @@ export default function Home() {
       <Service />
       <Freight />
       <Req />
+      <Freight_Forwarding />
    </Container>
    
   );
