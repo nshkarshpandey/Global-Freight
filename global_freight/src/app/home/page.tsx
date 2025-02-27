@@ -7,23 +7,43 @@ import Service from "@/components/service";
 import useScreenSize from '@/hooks/useScreenSize';
 import Freight from "@/components/freight";
 import Req from "@/components/req";
-
 import Freight_Forwarding from "@/components/freight_forwarding";
-// import Image from "next/image";
+import Custom from "@/components/custom";
 
 export default function Home() {
-   const { width, height } = useScreenSize();
+  const { width, height } = useScreenSize();
+
   return (
-    
     <Container>
       <p className="relative text-lg text-black">Current Screen Size: {width}px X {height}px</p>
-      <Header />
-      <Hero />
-      <Service />
-      <Freight />
-      <Req />
-      <Freight_Forwarding />
-   </Container>
-   
+      
+      <section className="header">
+        <Header />
+      </section>
+      
+      <section className="hero">
+        <Hero />
+      </section>
+      
+      <section className="service">
+        <Service />
+      </section>
+      
+      <section className="freight">
+        <Freight />
+      </section>
+      
+      <section className="req">
+        <Req />
+      </section>
+      
+      <section className="freight_forwarding">
+        <Freight_Forwarding />
+      </section>
+      
+      <section className="custom">
+        <Custom />
+      </section>
+    </Container>
   );
 }
