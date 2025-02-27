@@ -157,9 +157,7 @@ body {
   }
 
   .cust-line {
-    top: -41px;
-    width: 52%;
-    left: 55%;
+    display: none;
   }
 
   .cust-text-1 {
