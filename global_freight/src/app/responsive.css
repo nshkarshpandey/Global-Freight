@@ -127,14 +127,39 @@
     /* padding-left: 14.5rem; */
     top: 6px;
   }
+
+  .intran-head {
+    font-size: 1.5rem;
+  }
+
+  .intran-bullet {
+    font-size: 15px !important;
+  }
+
+  .intran-gap {
+    height: 10px !important;
+  }
+
+  .intran-cont {
+    font-size: 15px;
+  }
+
+  .intran-img {
+    width: 70px !important;
+    height: 73px !important;
+  }
+
+  .intran-main {
+    top: 27px !important;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 576px and up) */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* Styles for tablets */
   .serv-img {
-    width: 30rem !important;
-    height: 30rem !important;
+    width: 20rem !important;
+    height: 20rem !important;
   }
 
   .serv-card {
@@ -146,11 +171,11 @@
   }
 
   .serv-head {
-    font-size: 34px !important;
+    font-size: 25px !important;
     line-height: normal;
   }
   .serv-des {
-    font-size: 23px;
+    font-size: 19px;
     line-height: normal;
   }
 
@@ -238,6 +263,27 @@
     /* padding-left: 14.5rem; */
     top: 6px;
   }
+
+  .intran-head {
+    font-size: 2rem;
+  }
+
+  .intran-bullet {
+    font-size: 17px !important;
+  }
+
+  .intran-gap {
+    height: 20px !important;
+  }
+
+  .intran-cont {
+    font-size: 17px;
+  }
+
+  .intran-img {
+    width: 80px !important;
+    height: 83px !important;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -300,6 +346,18 @@
   .haz-head {
     /* padding-left: 2.5rem; */
     top: 50px;
+  }
+
+  .intran-head {
+    font-size: 3rem;
+  }
+
+  .intran-bullet {
+    font-size: 24px !important;
+  }
+
+  .intran-gap {
+    height: 30px !important;
   }
 }
 
