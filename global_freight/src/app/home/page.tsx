@@ -11,6 +11,7 @@ import Freight_Forwarding from "@/components/freight_forwarding";
 import Custom from "@/components/custom";
 import CargoHandling from "@/components/cargohandling";
 import InTransit from "@/components/intransit";
+import ShipContainer from "@/components/ship_container";
 
 export default function Home() {
   const { width, height } = useScreenSize();
@@ -55,6 +56,10 @@ export default function Home() {
 
       <section className="intransit">
         <InTransit />
+      </section>
+
+      <section className="shipcontainer">
+        <ShipContainer />
       </section>
     </Container>
   );

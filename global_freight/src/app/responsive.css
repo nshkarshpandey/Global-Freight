@@ -152,6 +152,14 @@
   .intran-main {
     top: 27px !important;
   }
+
+  .ship-cont-main {
+    top: 38px;
+  }
+
+  .ship-cont-2 {
+    top: -316px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 576px and up) */

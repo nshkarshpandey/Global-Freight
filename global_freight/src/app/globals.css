@@ -83,3 +83,37 @@ body {
 .main-haz {
   padding-top: 0px;
 }
+
+@keyframes dropBounce {
+  0% {
+    transform: translateY(-300px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  70% {
+    transform: translateY(0);
+  }
+  85% {
+    transform: translateY(-20px);
+  }
+  95% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-drop-bounce {
+  animation: dropBounce 1.5s ease-in-out forwards;
+}
+
+.ship-cont-1 {
+  z-index: 6;
+}
+
+.ship-cont-2 {
+  z-index: 5;
+}
