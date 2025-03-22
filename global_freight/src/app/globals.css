@@ -135,3 +135,9 @@ body {
     transform: rotate(360deg);
   }
 }
+
+.scro-ico {
+  width: 70px;
+  height: 70px;
+  max-width: 174%;
+}

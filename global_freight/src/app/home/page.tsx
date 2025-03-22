@@ -13,6 +13,7 @@ import CargoHandling from "@/components/cargohandling";
 import InTransit from "@/components/intransit";
 import ShipContainer from "@/components/ship_container";
 import Process from "@/components/process";
+import ScrollCard from "@/components/scroll_card";
 
 export default function Home() {
   const { width, height } = useScreenSize();
@@ -65,6 +66,10 @@ export default function Home() {
 
       <section className="process">
         <Process />
+      </section>
+
+      <section className="scrollcard">
+        <ScrollCard />
       </section>
     </Container>
   );

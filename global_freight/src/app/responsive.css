@@ -185,6 +185,34 @@
   .pro-ord {
     padding: 0.2rem;
   }
+
+  .scro-line {
+    width: 11%;
+    left: 88%;
+  }
+
+  .ico-card {
+    width: 15rem;
+    height: 13rem;
+  }
+
+  .ico-des {
+    font-size: 15px;
+  }
+
+  .scro-ico {
+    width: 44px;
+    height: 44px;
+    max-width: 174%;
+  }
+
+  .scro-head {
+    font-size: 22px;
+  }
+
+  .scro-line {
+    display: none;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 576px and up) */
@@ -342,6 +370,30 @@
   .pro-ord {
     padding: 0.2rem;
   }
+
+  .scro-line {
+    width: 11%;
+    left: 88%;
+  }
+
+  .ico-card {
+    width: 15rem;
+    height: 13rem;
+  }
+
+  .ico-des {
+    font-size: 15px;
+  }
+
+  .scro-ico {
+    width: 44px;
+    height: 44px;
+    max-width: 174%;
+  }
+
+  .scro-head {
+    font-size: 25px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -429,6 +481,26 @@
   .pro-ord {
     padding: 0.2rem;
   }
+
+  .scro-line {
+    width: 11%;
+    left: 88%;
+  }
+
+  .ico-card {
+    width: 18rem;
+    height: 16rem;
+  }
+
+  .ico-des {
+    font-size: 18px;
+  }
+
+  .scro-ico {
+    width: 55px;
+    height: 55px;
+    max-width: 174%;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -476,6 +548,11 @@
   .pro-list {
     height: 468px;
   }
+
+  .scro-line {
+    width: 24%;
+    left: 75%;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -509,6 +586,11 @@
 
   .pro-text {
     font-size: 27px;
+  }
+
+  .scro-line {
+    width: 24%;
+    left: 75%;
   }
 }
 
