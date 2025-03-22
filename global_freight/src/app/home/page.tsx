@@ -18,7 +18,7 @@ export default function Home() {
   const { width, height } = useScreenSize();
 
   return (
-    <Container>
+    <Container className="scrollbar-hide">
       <p className="relative text-lg text-black">
         Current Screen Size: {width}px X {height}px
       </p>
