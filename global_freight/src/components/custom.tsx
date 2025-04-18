@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 export default function CustomsClearance() {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
@@ -6,24 +6,31 @@ export default function CustomsClearance() {
   const items = [
     {
       text: "Minimize Delays In Supply Chain",
-      image: "/images/cust-1.png", // Replace with your image path
+      image: "/images/cust-1.png",
     },
     {
       text: "Enhancing Overall Business Competitiveness",
-      image: "/images/cust-2.png", // Replace with your image path
+      image: "/images/cust-2.png",
     },
     {
       text: "Reducing Costs And Avoiding Penalties",
-      image: "/images/cust-3.png", // Replace with your image path
+      image: "/images/cust-3.png",
     },
     {
       text: "Strengthen Communication With Key Stakeholders",
-      image: "/images/cust-4.png", // Replace with your image path
+      image: "/images/cust-4.png",
     },
   ];
 
   return (
     <div className="p-8 bg-[#fdf1e9] relative top-[140px] cust-cont">
+      {/* 🔄 Preload hover images (added) */}
+      <div className="hidden">
+        {items.map((item, index) => (
+          <img key={index} src={item.image} alt="" />
+        ))}
+      </div>
+
       {/* Heading */}
       <p className="text-[15px] font-bold text-[#EC7620] mb-8 text-left cust-head">
         Why Efficient Customs Clearance Matters?
@@ -32,7 +39,7 @@ export default function CustomsClearance() {
       <div className="relative -top-[43px] left-[22%] w-[74%] h-[1.5px] bg-[#ec7620] cust-line"></div>
 
       {/* List with Inline Images */}
-      <div className="space-y-6  mt-[4%]">
+      <div className="space-y-6 mt-[4%]">
         {items.map((item, index) => (
           <div
             key={index}
@@ -41,7 +48,6 @@ export default function CustomsClearance() {
             onMouseLeave={() => setHoveredIndex(null)}
           >
             {/* Text */}
-
             <div className="mb-[41px] mt-[10px] cust-text-cont">
               <span
                 className={`text-[35px] transition-colors duration-300 text-center font-bold cust-text-1 ${
@@ -51,6 +57,7 @@ export default function CustomsClearance() {
                 {item.text}
               </span>
             </div>
+
             {/* Image (Appears inline on hover) */}
             {hoveredIndex === index && (
               <img
@@ -61,8 +68,6 @@ export default function CustomsClearance() {
             )}
           </div>
         ))}
-
-        {/* Horizontal Line */}
       </div>
     </div>
   );
