@@ -213,6 +213,10 @@
   .scro-line {
     display: none;
   }
+
+  .fri-cont {
+    height: 364px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 576px and up) */
@@ -446,7 +450,7 @@
   }
 
   .cargo-haz-2 {
-    top: 74px;
+    top: 53px;
   }
 
   .cargo-haz-1 {
@@ -500,6 +504,10 @@
     width: 55px;
     height: 55px;
     max-width: 174%;
+  }
+
+  .hero-txt-2 {
+    top: 45px;
   }
 }
 

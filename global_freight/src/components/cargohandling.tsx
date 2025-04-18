@@ -2,7 +2,7 @@ import React from "react";
 
 const CargoHandling = () => {
   return (
-    <div className="p-10 bg-white flex flex-col custom-992:flex-row items-center custom-992:items-start gap-8 relative top-[140px] main-haz !overflow-x-hidden">
+    <div className="p-10 bg-white flex flex-col custom-992:flex-row items-center custom-992:items-start gap-8 relative top-[140px] main-haz ">
       {/* Left Side */}
       <div className="relative top-[100px] w-full max-w-[988px] custom-992:pr-8 haz-head">
         <h4 className="text-gray-500 text-sm haz-head-1">BEFORE TRANSIT</h4>

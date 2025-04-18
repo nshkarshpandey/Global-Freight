@@ -14,6 +14,7 @@ import InTransit from "@/components/intransit";
 import ShipContainer from "@/components/ship_container";
 import Process from "@/components/process";
 import ScrollCard from "@/components/scroll_card";
+import Conclusion from "@/components/conclusion";
 
 export default function Home() {
   const { width, height } = useScreenSize();
@@ -70,6 +71,10 @@ export default function Home() {
 
       <section className="scrollcard">
         <ScrollCard />
+      </section>
+
+      <section className="conclusion">
+        <Conclusion />
       </section>
     </Container>
   );

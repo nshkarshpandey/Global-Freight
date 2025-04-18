@@ -48,7 +48,7 @@ const ScrollCard = () => {
 
   return (
     <>
-      <div className="relative top-[33px]">
+      <div className="relative top-[33px] overflow-x-visiblew">
         {/* Heading Section */}
         <div className="relative mb-6">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#ec7620] font-['Gilroy-Bold',_sans-serif] scro-head">
@@ -64,13 +64,13 @@ const ScrollCard = () => {
               className="flex-shrink-0 w-48 h-36 sm:w-56 sm:h-44 md:w-[22rem] md:h-[17rem] bg-white rounded-lg shadow-md p-4 relative ico-card"
             >
               {/* Icon on the top left */}
-              <div className="absolute top-2 left-2 w-[70px] h-[70px] sm:w-10 sm:h-10">
+              <div className="absolute top-2 left-2 w-[70px] h-[70px] sm:w-10 sm:h-10 overflow-x-visible">
                 <Image
                   src={card.iconSrc}
                   alt={`Icon for card ${card.id}`}
                   width={70}
                   height={70}
-                  className="rounded-full scro-ico" // Optional: Add rounded corners to the icon
+                  className="rounded-full scro-ico overflow-x-visible" // Optional: Add rounded corners to the icon
                 />
               </div>
               {/* Description on the bottom left */}
