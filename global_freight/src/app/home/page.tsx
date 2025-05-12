@@ -4,7 +4,6 @@ import Header from "@/components/header";
 import Hero from "@/components/hero";
 import { Container } from "@/components/container";
 import Service from "@/components/service";
-import useScreenSize from "@/hooks/useScreenSize";
 import Freight from "@/components/freight";
 import Req from "@/components/req";
 import Freight_Forwarding from "@/components/freight_forwarding";
@@ -17,14 +16,8 @@ import ScrollCard from "@/components/scroll_card";
 import Conclusion from "@/components/conclusion";
 
 export default function Home() {
-  const { width, height } = useScreenSize();
-
   return (
     <Container className="scrollbar-hide">
-      <p className="relative text-lg text-black">
-        Current Screen Size: {width}px X {height}px
-      </p>
-
       <section className="header">
         <Header />
       </section>

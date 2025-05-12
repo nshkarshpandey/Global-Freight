@@ -63,12 +63,12 @@ const CargoHandling = () => {
             />
             <div>
               <h3 className="font-semibold text-black">
-                Hazardous Goods Transportation Safety:
+                Non-Hazardous Goods Transportation Safety:
               </h3>
               <p className="text-gray-600 text-sm">
-                Drivers must be fully trained to recognize risks, understand
-                emergency procedures, and comply with regulatory requirements
-                when transporting hazardous goods.
+                Drivers must follow safe handling practices, ensure secure
+                transport, and comply with regulations when transporting
+                non-hazardous goods.
               </p>
             </div>
           </div>
